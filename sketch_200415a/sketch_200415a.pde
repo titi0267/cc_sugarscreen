@@ -16,13 +16,13 @@ void draw()
   ellipse(pos.x, pos.y, 50, 50);
 
 if(pos.x <= 25 && x < 0){
-  x = +x;
+  x = -x;
 }
 if(pos.x > width-25 && x > 0){
   x = -x;
 }
 if(pos.y <= 25 && y < 0){
-  y = +y;
+  y = -y;
 }
 if(pos.y > width-25 && y > 0){
   y = -y;
