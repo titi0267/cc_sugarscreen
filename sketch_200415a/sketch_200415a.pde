@@ -1,3 +1,6 @@
+
+
+//randomSeed(millis());    (commande pour bien initialiser)
 PVector pos = new PVector(0, 0);
 int x = 1;
 int y = 1;
